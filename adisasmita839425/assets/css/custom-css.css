@@ -1,0 +1,174 @@
+.background{
+    background-image: url('../image/background.png');
+    background-repeat: no-repeat;
+}
+.background-custom{
+    background-image: url('../image/garis.png');
+    background-repeat: no-repeat;
+}
+.container-full-body{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-custom {
+    width: 100%;
+    padding-right: 8%;
+    padding-left: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 8em;
+}
+.container-custom-isi {
+    width: 100%;
+    padding-right: 8%;
+    padding-left: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 2em;
+}
+.container-custom-link {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2em 6%;
+}
+.pc{
+    padding-bottom: 4.3%;
+}
+.btn-custom-light{
+    color: rgb(255, 82, 19);
+    background: none;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 3px 14px;
+    border: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 3em;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-light:hover{
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 82, 19);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 3px 14px;
+    border: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 3em;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.text-custom-link{
+    color: rgb(255, 82, 19);
+}
+.btn-custom-orange{
+    background-color: rgb(255, 82, 19); ;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 3px 14px;
+    border: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 3em;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-orange:hover{
+    background-color: rgb(189, 50, 0); ;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 3px 14px;
+    border: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 3em;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-orange-long{
+    background-color: rgb(255, 82, 19); ;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 3px 30px;
+    border: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 3em;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-orange-long:hover{
+    background-color: rgb(189, 50, 0); ;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 3px 30px;
+    border: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 3em;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.card-body-custom{
+    height: 18em;
+}
+.card-show:hover{
+    background-color: rgb(235, 235, 235);
+}
+.icon-custom{
+    font-size: 4em;
+    margin: 9px 0;
+    color: rgb(255, 82, 19);
+}
+.custom-circle{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    background-color: white;
+}
+.icon-custom-circle{
+    margin: 7px;
+    font-size: 1.5em;
+    color: rgb(87, 182, 182);
+}
