@@ -173,16 +173,16 @@
     padding: 0 .9rem;
 }
 .h1-custom{
-    font-size: 6.2vmax;
+    font-size: 13vmin;
     padding: 0 1.2vmax;
 }
 .h3-custom{
-    font-size: 3.9vmax;
+    font-size: 10.9vmin;
 }
 .p-custom1{
-    font-size: 2.2vmax;
+    font-size: 4.6vmin;
 }
 .p-custom{
-    font-size: 2.2vmax;
+    font-size: 4.6vmin;
     padding: 0 1.2vmax;
 }
