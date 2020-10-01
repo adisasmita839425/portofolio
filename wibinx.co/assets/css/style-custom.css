@@ -1,0 +1,173 @@
+.btn-custom-login{
+    border-radius: 0;
+    background: rgb(194, 193, 193);
+    height: 2.3rem;
+    color: rgb(94, 1, 182);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-sign{
+    border-radius: 0;
+    background: rgb(94, 1, 182);
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-start{
+    border-radius: 0;
+    background: rgb(94, 1, 182);
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto auto;
+    width: 10rem;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-start-light{
+    border-radius: 0;
+    background: white;
+    color: rgb(94, 1, 182);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto auto;
+    width: 10rem;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-start-light:hover{
+    border-radius: 0;
+    background: rgb(206, 206, 206);
+    color: rgb(94, 1, 182);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto auto;
+    width: 10rem;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-start:hover{
+    border-radius: 0;
+    background: rgb(66, 2, 126);
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-login:hover{
+    border-radius: 0;
+    background: rgb(136, 136, 136);
+    height: 2.3rem;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-sign:hover{
+    border-radius: 0;
+    background: rgb(66, 2, 126);
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.container-fluid-custom{
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bg-custom{
+    background-color: rgb(177, 177, 177);
+}
+.card-custom{
+    height: 12rem;
+}
+.custom-circle{
+    border-radius: 2.5rem;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    padding: 13px;
+    margin: auto;
+}
+.bg-custom-u{
+    background-color: rgb(94, 1, 182);
+}
