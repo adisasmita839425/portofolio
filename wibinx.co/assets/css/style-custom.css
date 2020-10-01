@@ -1,10 +1,10 @@
 .btn-custom-login{
     border-radius: 0;
-    background: rgb(194, 193, 193);
+    background:  #E8E5F3;
     height: 2.3rem;
     color: rgb(94, 1, 182);
     display: inline-block;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -14,15 +14,15 @@
     padding: auto 14px;
     border: transparent;
     font-size: 1.1rem;
-    line-height: 1.5rem;
+    line-height: 1.5;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-custom-sign{
     border-radius: 0;
+    font-weight: 500;
     background: rgb(94, 1, 182);
     color: white;
     display: inline-block;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -36,11 +36,11 @@
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-custom-start{
+    font-weight: 500;
     border-radius: 0;
     background: rgb(94, 1, 182);
     color: white;
     display: inline-block;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -51,15 +51,15 @@
     width: 10rem;
     border: transparent;
     font-size: 1.1rem;
-    line-height: 1.5;
+    line-height: 2;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-custom-start-light{
+    font-weight: 500;
     border-radius: 0;
-    background: white;
+    background:  #E8E5F3;
     color: rgb(94, 1, 182);
     display: inline-block;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -70,15 +70,15 @@
     width: 10rem;
     border: transparent;
     font-size: 1.1rem;
-    line-height: 1.5;
+    line-height: 2;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-custom-start-light:hover{
+    font-weight: 500;
     border-radius: 0;
-    background: rgb(206, 206, 206);
+    background: rgb(204, 204, 204);
     color: rgb(94, 1, 182);
     display: inline-block;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -89,15 +89,15 @@
     width: 10rem;
     border: transparent;
     font-size: 1.1rem;
-    line-height: 1.5;
+    line-height: 2;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-custom-start:hover{
+    font-weight: 500;
     border-radius: 0;
     background: rgb(66, 2, 126);
     color: white;
     display: inline-block;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -107,16 +107,16 @@
     padding: auto 14px;
     border: transparent;
     font-size: 1.1rem;
-    line-height: 1.5;
+    line-height: 2;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-custom-login:hover{
+    font-weight: 500;
     border-radius: 0;
-    background: rgb(136, 136, 136);
+    background: rgb(204, 204, 204);
     height: 2.3rem;
     color: rgb(0, 0, 0);
     display: inline-block;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -130,11 +130,11 @@
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-custom-sign:hover{
+    font-weight: 500;
     border-radius: 0;
     background: rgb(66, 2, 126);
     color: white;
     display: inline-block;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -155,7 +155,7 @@
     margin-left: auto;
 }
 .bg-custom{
-    background-color: rgb(177, 177, 177);
+    background-color: #E8E5F3
 }
 .card-custom{
     height: 12rem;
@@ -170,4 +170,19 @@
 }
 .bg-custom-u{
     background-color: rgb(94, 1, 182);
+    padding: 0 .9rem;
+}
+.h1-custom{
+    font-size: 6.2vmax;
+    padding: 0 1.2vmax;
+}
+.h3-custom{
+    font-size: 3.9vmax;
+}
+.p-custom1{
+    font-size: 2.2vmax;
+}
+.p-custom{
+    font-size: 2.2vmax;
+    padding: 0 1.2vmax;
 }
