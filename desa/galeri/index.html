@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Petiga adalah desa di kecamatan Marga, Kabupaten Tabanan, provinsi Bali, Indonesia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../assets/image/logod.jpg" type="image/x-icon">
+    <title>Galeri | Desa Argopolitan</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/popper.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../assets/css/style-custom-galeri.css">
+    <link rel="stylesheet" href="../assets/css/style-custom-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <a href="../" class="navbar-brand"><img width="100px" src="../assets/image/logodesa.png" alt=""></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#oyik" aria-controls="oyik"
+            aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mb-1 mt-1" id="oyik">
+            <hr>
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item">
+                    <a href="../" class="nav-link mr-3">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link mr-3">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../berita" class="nav-link mr-3">Berita</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="../galeri" class="nav-link mr-3">Galeri<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <img src="../assets/image/alam.PNG" width="100%" alt="">
+
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="column mb-3">
+                <img src="../assets/image/logo (1).jpeg" style="width:100%" onclick="openModal();currentSlide(1)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class="column mb-3">
+                <img src="../assets/image/logo (2).jpeg" style="width:100%" onclick="openModal();currentSlide(2)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class="column mb-3">
+                <img src="../assets/image/logo (3).jpeg" style="width:100%" onclick="openModal();currentSlide(3)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class="column mb-3">
+                <img src="../assets/image/logo (4).jpeg" style="width:100%" onclick="openModal();currentSlide(4)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class="column mb-3">
+                <img src="../assets/image/logo (5).jpeg" style="width:100%" onclick="openModal();currentSlide(5)"
+                    class="hover-shadow cursor">
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="../assets/image/logo (1).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="../assets/image/logo (2).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="../assets/image/logo (3).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="../assets/image/logo (4).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="../assets/image/logo (5).jpeg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </div>
+
+        <script>
+            function openModal() {
+                document.getElementById("myModal").style.display = "block";
+            }
+
+            function closeModal() {
+                document.getElementById("myModal").style.display = "none";
+            }
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+    </div>
+    <img src="../assets/image/bawah.png" width="100%" class="mt-5" alt="">
+    <div class="bg-dark text-color-custom">
+        <div class="margin-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <h4 class="text-success">Desa Petiga</h4>
+                        <p>
+                            Petiga adalah desa di kecamatan Marga, Kabupaten Tabanan, provinsi Bali, Indonesia
+                        </p>
+                        <img src="../assets/image/peta.png" class="img-fluid" alt="">
+                        <span class="fa fa-map-marker-alt mt-3"></span> <a href="https://goo.gl/maps/jz6nr82Bo1VmnGxR8"
+                            class="text-color-custom" style="text-decoration: none;">Lihat di Google Map</a>
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <h4 class="text-success">Koleksi Foto</h4>
+                            <img src="../assets/image/logo (2).jpeg" class="mb-1 img-fluid" alt="">
+                            <img src="../assets/image/logo (3).jpeg" class="mb-1 img-fluid" alt="">
+                            <a href="" class="text-color-custom" style="text-decoration: none;">Lihat Foto lainnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="castom-copy">
+        <p class="text-center text-copy">&copy; 2020 Desa Petiga</p>
+    </div>
+</body>
+
+</html>

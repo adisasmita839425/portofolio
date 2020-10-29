@@ -1,0 +1,60 @@
+.bg-image-custom{
+    background-image: url(http://localhost/IKIP_PGRI/assets/image/alam.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.margin-custom{
+    padding: 13rem 0;
+}
+.custom-fa{
+    font-size: 8rem;
+}
+.text-custom{
+    width: 40rem;
+}
+.margin-footer{
+    padding: 3rem 3rem 1rem 3rem;
+}
+.nomor-custom{
+    margin: .5rem auto;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: rgb(230, 230, 230);
+    border-radius: 2.5rem;
+}
+.custom-p{
+    padding-top: 7px;
+    font-size: large;
+}
+.text-color-custom{
+    color: rgb(233, 233, 233);
+}
+.castom-copy{
+    background: rgb(41, 39, 39);
+    padding: 1rem;
+    color: white;
+    height: auto;
+}
+.bg-white{
+    background: white;
+}
+.text-copy{
+    color: rgb(211, 211, 211);
+}
+.custom-next{
+    background: rgb(223, 223, 223);
+    border: 1px solid grey;
+    border-radius: .5rem;
+    padding:.3rem 1rem;
+    margin: 1rem;
+    color: white;
+}
+.next a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+.next a:hover{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    background: rgb(155, 155, 155);
+}
