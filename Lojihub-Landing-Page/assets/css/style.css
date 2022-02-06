@@ -130,7 +130,6 @@ h4,h5,h6{
     .lojihub-team{
         height: 15rem;
         padding: 20px;
-        float: right;
     }
     .lojihub-illust{
         padding: 0px 25px 55px;
@@ -146,12 +145,12 @@ h4,h5,h6{
         padding-top: 5rem;
     }
     .lojihub-team-solid{
-        width: 15vmax;
+        width: 14vmax;
         border-radius: .5rem;
     }
     .card-team-lojihub{
         position: absolute;
-        width: 15vmax;
+        width: 14vmax;
         top: 10vmax;
     }
     .card-team-lojihub .card .card-body{
