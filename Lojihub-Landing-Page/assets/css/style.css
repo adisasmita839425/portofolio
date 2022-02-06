@@ -18,6 +18,7 @@ h4,h5,h6{
 }
 .bg-lojihub{
     background: #1956b4;
+    border: #1956b4;
 }
 .bg-value{
     background: #f9f9f9;
@@ -50,10 +51,6 @@ h4,h5,h6{
     font-size: 16px;
     color: white;
 }
-.lojihub-illust{
-    padding: 55px;
-    width: 100%;
-}
 .lojihub-illust-md{
     width: 80%;
     padding: 10px;
@@ -70,14 +67,14 @@ h4,h5,h6{
     color: #1956b4;
     font-size: 13px;
     width: 120px;
-    font-weight: 500;
+    font-weight: 700;
 }
 .btn-lojihub-blue{
     background: #1956b4;
     color: white;
     font-size: 13px;
     width: 120px;
-    font-weight: 500;
+    font-weight: 700;
 }
 .text-lojihub{
     color: #1956b4;
@@ -111,15 +108,6 @@ h4,h5,h6{
     border: none;
     background: #1956b4;
 }
-.portofolio-lojihub{
-    background-image: url(../img/Ellipse\ 16.jpg);
-    background-repeat: no-repeat;
-    background-size: 37vmax 34vmax;
-    background-position-x: 45%;
-    background-position-y: 4vmax;
-    height: 45vmax;
-    padding-top: 5rem;
-}
 .icon-value{
     width: 45px;;
 }
@@ -141,7 +129,33 @@ h4,h5,h6{
     }
     .lojihub-team{
         height: 15rem;
-        padding: 20px
+        padding: 20px;
+        float: right;
+    }
+    .lojihub-illust{
+        padding: 0px 25px 55px;
+        width: 100%;
+    }
+    .portofolio-lojihub{
+        background-image: url(../img/Ellipse\ 16.jpg);
+        background-repeat: no-repeat;
+        background-size: 32vmax 30vmax;
+        background-position-x: 15%;
+        background-position-y: 7vmax;
+        height: 45vmax;
+        padding-top: 5rem;
+    }
+    .lojihub-team-solid{
+        width: 15vmax;
+        border-radius: .5rem;
+    }
+    .card-team-lojihub{
+        position: absolute;
+        width: 15vmax;
+        top: 10vmax;
+    }
+    .card-team-lojihub .card .card-body{
+        padding: 10px 0px 0px 0px;
     }
 }
 
@@ -160,7 +174,36 @@ h4,h5,h6{
     }
     .lojihub-team{
         height: 25rem;
-        padding: 20px
+        padding: 20px;
+        float: right;
+    }
+    .price-padding-custom{
+        padding: 0px 3rem;
+    }
+    .lojihub-illust{
+        padding: 55px;
+        width: 100%;
+    }
+    .portofolio-lojihub {
+        background-image: url(../img/Ellipse\ 16.jpg);
+        background-repeat: no-repeat;
+        background-size: 31vmax 28vmax;
+        background-position-x: 32%;
+        background-position-y: 2vmax;
+        height: 45vmax;
+        padding-top: 5rem;
+    }
+    .lojihub-team-solid{
+        width: 11vmax;
+        border-radius: .5rem;
+    }
+    .card-team-lojihub{
+        position: absolute;
+        width: 11vmax;
+        top: 8vmax;
+    }
+    .card-team-lojihub .card .card-body{
+        padding: 10px 2px
     }
 }
 .collapse-lojihub-faq{
@@ -193,20 +236,11 @@ ul.list-lojihub-contact{
   padding-right: 20px;
   float: left;
 }
-.lojihub-team-solid{
-    width: 15vmax;
-    border-radius: .5rem;
-}
 .lojihub-team-card{
     position: relative;
 }
-.card-team-lojihub{
-    position: absolute;
-    width: 15vmax;
-    top: 10vmax;
-}
 .linkedn-team-lojihub{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     width: 3vmax;
 }
 .lojihub-cto{
@@ -216,10 +250,7 @@ ul.list-lojihub-contact{
     margin-top: 3rem;
 }
 .card-team-lojihub .card{
-    margin: .5rem;
-}
-.card-team-lojihub .card .card-body{
-    padding: 10px 0px 0px 0px;
+    margin: .4rem;
 }
 .card-team-lojihub .card .card-body h6{
     font-size: 1.2vmax;
@@ -239,4 +270,7 @@ ul.list-lojihub-contact{
 }
 .list-lojihub-price li .win{
     padding-right: 10px;
+}
+.swiper-pagination-bullet {
+    margin-right: 2px;
 }
