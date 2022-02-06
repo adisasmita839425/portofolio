@@ -1,0 +1,242 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: #2B2B2B;
+    font-size: 40px;
+}
+h4,h5,h6{
+    color: #2B2B2B;
+    font-weight: bolder;
+}
+.card{
+    border-radius: .5rem;
+    margin: 1rem;
+}
+.mt-6{
+    margin-top: 130px;
+}
+.bg-lojihub{
+    background: #1956b4;
+}
+.bg-value{
+    background: #f9f9f9;
+}
+.title{
+    color: #2B2B2B;
+}
+.desc{
+    color: #787878;
+}
+.bg-lojihub-secondary{
+    background: #e5e5e5;
+}
+.bg-lojihub-faq{
+    background: #f1f5fa;;
+}
+.bg-lojihub .nav-link{
+    color: white;
+}
+.bg-lojihub .lojihub-desc {
+    min-height: 330px;
+    letter-spacing: -0.02em;
+}
+.bg-lojihub .lojihub-desc h1 {
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+}
+.bg-lojihub .lojihub-desc p {
+    font-size: 16px;
+    color: white;
+}
+.lojihub-illust{
+    padding: 55px;
+    width: 100%;
+}
+.lojihub-illust-md{
+    width: 80%;
+    padding: 10px;
+}
+.lojihub-illust-sm{
+    width: 35vmax;
+    padding: 10px;
+}
+.lojihub-illust-shadow{
+    width: 35vmax;
+}
+.btn-lojihub{
+    background: white;
+    color: #1956b4;
+    font-size: 13px;
+    width: 120px;
+    font-weight: 500;
+}
+.btn-lojihub-blue{
+    background: #1956b4;
+    color: white;
+    font-size: 13px;
+    width: 120px;
+    font-weight: 500;
+}
+.text-lojihub{
+    color: #1956b4;
+    font-size: 14px;
+}
+.text-lojihub-desc{
+    color: #787878;
+    font-size: 13px;
+}
+.text-lojihub-from{
+    color: #787878;
+    font-size: 11px;
+}
+.card-sm-shadow{
+    width: 10px;
+    height: 10px;
+    background: #1956b4;;
+}
+.rounded-circle{
+    margin-right: 10px;
+    border:1px solid #787878;;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+}
+.rounded-circle-dot{
+    border-radius: 50%;
+    width: 7px;
+    margin: 5px;
+    height: 7px;
+    border: none;
+    background: #1956b4;
+}
+.portofolio-lojihub{
+    background-image: url(../img/Ellipse\ 16.jpg);
+    background-repeat: no-repeat;
+    background-size: 37vmax 34vmax;
+    background-position-x: 45%;
+    background-position-y: 4vmax;
+    height: 45vmax;
+    padding-top: 5rem;
+}
+.icon-value{
+    width: 45px;;
+}
+.card-price{
+    border-radius: 30px 30px 0px 0px;
+}
+.icon-shadow{
+    background: #1956b4;
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: white;
+    box-shadow: 9px 9px 0px #d3ede8;
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .desktop-version {
+      display: none;
+    }
+    .lojihub-team{
+        height: 15rem;
+        padding: 20px
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile-version {
+      display: none;
+    }
+    .text-lojihub-desc-desktop{
+        padding: 0px 25%;
+    }
+    .footer-desktop{
+        text-align: right;
+    }
+    .team-desc{
+        padding-top: 5rem;
+    }
+    .lojihub-team{
+        height: 25rem;
+        padding: 20px
+    }
+}
+.collapse-lojihub-faq{
+    padding: 10px;
+    background: #1956b4;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+}
+.rotate {
+    transform: rotate(-180deg);
+    /*transform: rotate(180deg);*/
+    transition: .3s;
+}
+.rotate2 {
+    transform: rotate(0deg);
+    transition: .3s;
+}
+ul.list-lojihub-contact{
+    list-style-type: none;
+    padding: 0;
+}
+.lojihub-social-media{
+    padding: 0px;
+}
+.lojihub-social-media li
+{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  float: left;
+}
+.lojihub-team-solid{
+    width: 15vmax;
+    border-radius: .5rem;
+}
+.lojihub-team-card{
+    position: relative;
+}
+.card-team-lojihub{
+    position: absolute;
+    width: 15vmax;
+    top: 10vmax;
+}
+.linkedn-team-lojihub{
+    padding-bottom: 20px;
+    width: 3vmax;
+}
+.lojihub-cto{
+    margin-top: 3rem;
+}
+.lojihub-coo{
+    margin-top: 3rem;
+}
+.card-team-lojihub .card{
+    margin: .5rem;
+}
+.card-team-lojihub .card .card-body{
+    padding: 10px 0px 0px 0px;
+}
+.card-team-lojihub .card .card-body h6{
+    font-size: 1.2vmax;
+    margin-bottom: .3rem;
+}
+.card-team-lojihub .card .card-body p{
+    font-size: 1vmax;
+}
+.list-lojihub-price{
+    list-style: none;
+    text-align: left;
+    padding:0px
+}
+.list-lojihub-price li{
+    padding: 10px;
+    font-size: 13px;
+}
+.list-lojihub-price li .win{
+    padding-right: 10px;
+}
