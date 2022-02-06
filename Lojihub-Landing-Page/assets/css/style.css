@@ -156,6 +156,12 @@ h4,h5,h6{
     .card-team-lojihub .card .card-body{
         padding: 10px 0px 0px 0px;
     }
+    .collapse .card-body{
+        padding: 1.25rem 0px;
+    }
+    .collapse-lojihub .card-body{
+        padding: 1.25rem 0px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -178,6 +184,9 @@ h4,h5,h6{
     }
     .price-padding-custom{
         padding: 0px 3rem;
+    }
+    .space-price-nodics{
+        padding-bottom: 3rem!important;
     }
     .lojihub-illust{
         padding: 55px;
